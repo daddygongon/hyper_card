@@ -1,10 +1,25 @@
-# HyperCard
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: Hyper Card system for Ruby
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   H:4 toc:t num:2
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
-TODO: Delete this and the text below, and describe your gem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/hyper_card`. To experiment with that code, run `bin/console` for an interactive prompt.
+* HyperCard
 
-## Installation
+Hyper Card system for Ruby learners and users
+
+HyperCard is originally released in late 80's 
+by Apple with the Macintosh SE, made by Bill Atkinson.
+After that, although the concept of HyperCard has been used
+in MacOS, Finder, Keynote and so on,
+the simple application of HyperCard has gone.
+This HyperCard system try to rebuild the hyper card world again.
+
+* Installation
 
 TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
 
@@ -16,24 +31,25 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
     $ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
-## Usage
+* Usage
 
 TODO: Write usage instructions here
 
-## Development
+* Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test-unit` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
-## Contributing
+* Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hyper_card. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/hyper_card/blob/main/CODE_OF_CONDUCT.md).
 
-## License
+* License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Code of Conduct
 
 Everyone interacting in the HyperCard project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/hyper_card/blob/main/CODE_OF_CONDUCT.md).
+
