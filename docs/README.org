@@ -1,0 +1,29 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: Ruby basics
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   H:4 toc:t num:2
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* Basic six elements[/]
+- [ ] print String
+- [ ] name
+- [ ] loop
+- [ ] Array and Hash
+- [ ] if
+- [ ] method
+
+* Simple TDD
+
+* FSM
+
+* Basic pattern
+- [ ] File
+- [ ] FileUtils
+- [ ] Dir
+- [ ] RE
+- [ ] Rakefile(DSL)
+
+* class TDD

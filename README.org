@@ -12,7 +12,7 @@
 
 Hyper Card system for Ruby learners and users
 
-HyperCard is originally released in late 80's 
+HyperCard is originally released in the late 80's 
 by Apple with the Macintosh SE, made by Bill Atkinson.
 After that, although the concept of HyperCard has been used
 in MacOS, Finder, Keynote and so on,
