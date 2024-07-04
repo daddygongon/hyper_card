@@ -1,0 +1,4 @@
+[:head_search, "** head1\n"]
+[:block_search, "- list1 :  1\n"]
+[:head_search, "- list2 :  2\n"]
+[:head_search, "\n"]

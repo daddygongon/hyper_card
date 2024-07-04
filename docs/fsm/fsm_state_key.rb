@@ -1,3 +1,4 @@
+# Current_state =>  Trans_state, Key
 TRANSITIONS = {
   :head_search => [:val_search, "**"],
   :val_search => [:head_search, "- "]

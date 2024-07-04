@@ -1,0 +1,19 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: Simple TDD(Test Driven Development)
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+# +OPTIONS:   H:4 toc:t num:2
+#+OPTIONS:   toc:nil
+#+TAG: hoge, hoge2
+#+TWITTER: off
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+| images/seminar_24s-05.jpg | [[file:../images/seminar_24s-05.jpg]] |
+| images/seminar_24s-06.jpg | [[file:../images/seminar_24s-06.jpg]] |
+| images/seminar_24s-07.jpg | [[file:../images/seminar_24s-07.jpg]] |
+| images/seminar_24s-08.jpg | [[file:../images/seminar_24s-08.jpg]] |
+| images/seminar_24s-09.jpg | [[file:../images/seminar_24s-09.jpg]] |
+| images/seminar_24s-10.jpg | [[file:../images/seminar_24s-10.jpg]] |
+| images/seminar_24s-13.jpg | [[file:./images/seminar_24s-13.jpg]] |

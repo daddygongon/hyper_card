@@ -4,21 +4,22 @@
 #+AUTHOR: Shigeto R. Nishitani
 #+EMAIL:     (concat "shigeto_nishitani@mac.com")
 #+LANGUAGE:  jp
-#+OPTIONS:   H:4 toc:t num:2
+#+OPTIONS:   toc:nil
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
-* Basic six elements[/]
-- [ ] print String
-- [ ] name
-- [ ] loop
-- [ ] Array and Hash
-- [ ] if
-- [ ] method
+* HyperCard designs(concepts)
+| [[file:./images/seminar_24s-2.jpg]]
+| [[file:./images/seminar_24s-11.jpg]] | [[file:./images/seminar_24s-12.jpg]] | [[file:./images/seminar_24s-14.jpg]] |
+| [[file:./images/seminar_24s-15.jpg]] | [[file:./images/seminar_24s-18.jpg]] | [[file:./images/seminar_24s-25.jpg]] |
+| [[file:./images/seminar_24s-31.jpg]] | [[file:./images/seminar_24s-34.jpg]] | [[file:./images/seminar_24s-37.jpg]] |
 
-* Simple TDD
+* Basic six coding elements on Ruby
+| [[file:./images/seminar_24s-24.jpg]]                              |
+| print(String), name, loop, Array/Hash, if-else, method(class) |
 
-* FSM
-
+* [[file:./simple_tdd/README.org][simple TDD]]
+- Fibonacci, leap year, Roman Numerals
+* [[file:./fsm/README.org][FSM (Finite State Machine)]]
 * Basic pattern
 - [ ] File
 - [ ] FileUtils

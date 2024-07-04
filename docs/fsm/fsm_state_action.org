@@ -1,0 +1,16 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: fsm_state_action
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   toc:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+| images/seminar_24s-35.jpg | [[file:../images/seminar_24s-35.jpg]] |
+
+- [[file:./fsm_state_action_rb.org]]
+- [[file:./README_sample_org.org]]
+- [[file:./fsm_state_action_results.org]]
+
+

@@ -1,0 +1,20 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: fsm_no_hash
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   toc:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+| [[file:../images/seminar_24s-19.jpg]]               |
+
+* ./README_sample.org
+#+include: "./README_sample.org" src text
+
+* fsm_no_hash.rb
+#+include: "./fsm_no_hash.rb" src ruby -n -i
+
+* results
+: > ruby fsm_no_hash.rb
+#+include: "./fsm_no_hash_results.txt" src text
