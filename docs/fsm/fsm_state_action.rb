@@ -1,4 +1,6 @@
 require 'scanf'
+require 'pp'
+
 # Current_state
 #    key =>  Trans_state, action
 TRANSITIONS = {

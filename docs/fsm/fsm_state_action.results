@@ -4,4 +4,11 @@
 "head2"
 ["list1", 3]
 ["list2", 4]
-[["head1", ["list1", 1], ["list2", 2]], ["head2", ["list1", 3], ["list2", 4]]]
+
+[["head1",
+  ["list1", 1], ["list2", 2]
+ ],
+ ["head2",
+  ["list1", 3], ["list2", 4]
+ ]
+]

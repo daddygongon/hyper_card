@@ -10,4 +10,4 @@
 #+TWITTER: off
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
-#+include: "fsm_state_action.results" src bash
+#+include: "fsm_state_action.results" src ruby
