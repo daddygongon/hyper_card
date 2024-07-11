@@ -19,6 +19,26 @@ in MacOS, Finder, Keynote and so on,
 the simple application of HyperCard has gone.
 This HyperCard system try to rebuild the hyper card world again.
 
+Rubyを習得する人あるいは使う人のためのHyper Cardシステムです．
+Hyper CardはAppleのMacのためにBill Atkinsonが開発した付録でした．
+その後，HyperCardの思想は，MacOS(Finder), あるいはKeynoteに
+受け継がれたのですが，HyperCard自身はどっかへ消えていきました．
+何かプログラミング言語を習得するには，
+写経しろとか，数学の問題を解くようにとか言われますが，
+現代の初心者にはなんのこっちゃだと思います．
+あるいはコピペと写経の違いが何かや，
+チャンキングとカプセル化や，隠蔽とトグル表示が何かも，
+クラス化(オブジェクト指向)を
+実感できてない人には，ピンと来てないんでしょう．
+そんな人でも，
+Rubyを「忘れず」（記憶することではなく），
+codingできるようなシステムを目指します．
+
+梅棹忠夫の「知的生産の技術」で紹介されている
+京大カードシステムの中に，そのヒントがあるように思います．
+
+同じところと違うところ？
+
 * Installation
 
 TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.

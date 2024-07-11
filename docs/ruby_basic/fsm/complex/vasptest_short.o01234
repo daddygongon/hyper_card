@@ -1,0 +1,26 @@
+loading .bash_profile
+"098_098"
+"/usr/local/vasp/vasp.5.4.4.pl2_CentOS6_Intel-2018.5.274/bin/vasp"
+* relax calc kpoints:50, in_plane:0.98, vertical:0.98
+ running on    8 total cores
+ distrk:  each k-point on    8 cores,    1 groups
+...
+   5 F= -.37860710E+03 E0= -.37860716E+03  d E =-.915715E+00
+...
+* fix calc kpoints:50, in_plane:0.98, vertical:0.98
+ running on    8 total cores
+...
+DAV:   3    -0.379546039319E+03    0.14390E-04   -0.91443E-05  2730   0.134E-02
+   1 F= -.37954604E+03 E0= -.37954604E+03  d E =0.000000E+00
+ writing wavefunctions
+"098_100"
+"/usr/local/vasp/vasp.5.4.4.pl2_CentOS6_Intel-2018.5.274/bin/vasp"
+* relax calc kpoints:50, in_plane:0.98, vertical:1.00
+...
+ writing wavefunctions
+* fix calc kpoints:50, in_plane:0.98, vertical:1.00
+ running on    8 total cores
+...
+   1 F= -.38143537E+03 E0= -.38143537E+03  d E =0.000000E+00
+ writing wavefunctions
+...

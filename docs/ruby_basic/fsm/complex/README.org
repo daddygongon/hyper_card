@@ -1,0 +1,50 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages num
+#+TITLE: fsm (finite state machine)
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+TWITTER: off
+#+OPTIONS:   H:4 toc:t num:2
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+
+* fsm(finite state machine)
+
+logや計算結果から特定のデータを取り出すためのパターン．
+
+* outline
+| [[file:../../images/seminar_24s-38.jpg]] |
+
+左のデータで，
+1. linesを回しながら，
+1. key('* fix ','   1 F')でstate(:wait_next, :searching)を変え,
+1. action(:xy_data, :z_data, :idle)をとる
+
+LL.4-13で用意したHash構造を使って，
+LL.20-1で，line[0..5]をkeyとして[state, action]を調整している．．
+
+* description
+詳しい解説．．．
+
+keyやactionの中身は，
+別メソッドにしてより複雑な処理に変更することで，
+どのような構造を持った文書からでも，
+特定のデータを取り出すことができる．
+
+* code and data
+- source :  [[file:check_auto_calc_state_action_rb.org][check_auto_calc_state_action.rb]]
+- data(一部) : 
+- resutls : [[file: ./fsm_results_txt.org][fsm_results.txt]]
+
+* links
+- readlines
+- hash
+- case
+
+* references
+- [[https://qiita.com/daddygongon/items/c84eaea29a14a5d05945][チャート式ruby-appendix-V(finite state element)]] daddygongon, (2024/07/06 accessed.)
+- 達人プログラマー(第2版): 熟達に向けたあなたの旅 (日本語) 単行本 – 2020/11/21David Thomas (著), Andrew Hunt (著), 村上 雅章 (翻訳), オーム社; 第2版 (2020/11/21), p176. 
+- Rubyベストプラクティス -プロフェッショナルによるコードとテクニック，Gregory Brown (著), 高橋 征義 (監訳), 笹井 崇司 (翻訳)、オライリージャパン (2010/3/26)， Ruby Best Practices by Gregory T Brown, O'Reilly, ↩ ↩2
+
+

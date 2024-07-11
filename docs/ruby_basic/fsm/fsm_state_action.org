@@ -9,8 +9,8 @@
 
 | images/seminar_24s-35.jpg | [[file:../images/seminar_24s-35.jpg]] |
 
-- [[file:./fsm_state_action_rb.org]]
-- [[file:./README_sample_org.org]]
-- [[file:./fsm_state_action_results.org]]
+- [[file:./fsm_state_action_rb.org][fsm_state_action.rb]]
+- [[file:README_sample_org.org][README_sample.org]]
+- [[file:fsm_state_action_results.org][fsm_state_action.results]]
 
 

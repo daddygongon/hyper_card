@@ -22,5 +22,6 @@
 | images/seminar_24s-21.jpg | [[file:../images/seminar_24s-21.jpg]]               |
 | images/seminar_24s-22.jpg | [[file:../images/seminar_24s-22.jpg]]               |
 #+include: "./fsm_state_key.rb" src ruby
-* [[file:./fsm_state_action.org][fsm_state_action]]
+* [[file:fsm_state_action.org][fsm_state_action]]
+* [[file:complex/README.org][full fsm]]
 

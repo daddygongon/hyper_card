@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="jp" xml:lang="jp">
+<head>
+<!-- 2024-07-06 Sat 14:58 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>complex fsm (finite state machine)</title>
+<meta name="author" content="Shigeto R. Nishitani" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">complex fsm (finite state machine)</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orged51e92">1. fsm(finite state machine)</a></li>
+<li><a href="#org74e8168">2. outline</a></li>
+<li><a href="#orgc734290">3. description</a></li>
+<li><a href="#orgc07fb77">4. code and data</a></li>
+<li><a href="#org3bf2cdf">5. links</a></li>
+<li><a href="#org55755f3">6. references</a></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orged51e92" class="outline-2">
+<h2 id="orged51e92"><span class="section-number-2">1.</span> fsm(finite state machine)</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+logや計算結果から特定のデータを取り出すためのパターン．
+</p>
+</div>
+</div>
+
+<div id="outline-container-org74e8168" class="outline-2">
+<h2 id="org74e8168"><span class="section-number-2">2.</span> outline</h2>
+<div class="outline-text-2" id="text-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><img src="../../images/seminar_24s-38.jpg" alt="seminar_24s-38.jpg" /></td>
+</tr>
+</tbody>
+</table>
+
+<p>
+左のデータで，
+</p>
+<ol class="org-ol">
+<li>linesを回しながら，</li>
+<li>key('* fix ','   1 F')でstate(:wait_next, :searching)を変え,</li>
+<li>action(:xy_data, :z_data, :idle)をとる</li>
+</ol>
+
+<p>
+LL.4-13で用意したHash構造を使って，
+LL.20-1で，line[0..5]をkeyとして[state, action]を調整している．．
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc734290" class="outline-2">
+<h2 id="orgc734290"><span class="section-number-2">3.</span> description</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+詳しい解説．．．
+</p>
+
+<p>
+keyやactionの中身は，
+別メソッドにしてより複雑な処理に変更することで，
+どのような構造を持った文書からでも，
+特定のデータを取り出すことができる．
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc07fb77" class="outline-2">
+<h2 id="orgc07fb77"><span class="section-number-2">4.</span> code and data</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li>source :  <a href="check_auto_calc_state_action_rb.html">check_auto_calc_state_action.rb</a></li>
+<li>data(一部) :</li>
+<li>resutls : <a href=" ./fsm_results_txt.html">fsm_results.txt</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org3bf2cdf" class="outline-2">
+<h2 id="org3bf2cdf"><span class="section-number-2">5.</span> links</h2>
+<div class="outline-text-2" id="text-5">
+<ul class="org-ul">
+<li>readlines</li>
+<li>hash</li>
+<li>case</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org55755f3" class="outline-2">
+<h2 id="org55755f3"><span class="section-number-2">6.</span> references</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li><a href="https://qiita.com/daddygongon/items/c84eaea29a14a5d05945">チャート式ruby-appendix-V(finite state element)</a> daddygongon, (2024/07/06 accessed.)</li>
+<li>達人プログラマー(第2版): 熟達に向けたあなたの旅 (日本語) 単行本 – 2020/11/21David Thomas (著), Andrew Hunt (著), 村上 雅章 (翻訳), オーム社; 第2版 (2020/11/21), p176.</li>
+<li>Rubyベストプラクティス -プロフェッショナルによるコードとテクニック，Gregory Brown (著), 高橋 征義 (監訳), 笹井 崇司 (翻訳)、オライリージャパン (2010/3/26)， Ruby Best Practices by Gregory T Brown, O'Reilly, ↩ ↩2</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Shigeto R. Nishitani</p>
+<p class="date">Created: 2024-07-06 Sat 14:58</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
