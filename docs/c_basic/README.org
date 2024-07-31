@@ -1,0 +1,67 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: title
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   H:4 toc:t num:2
+# +OPTIONS:   toc:nil
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* 2-4-2 a,b,cの置換
+** 課題
+変数a,b,cがある。a←b←cとプログラムで３つの値を入れ替えてみよ
+
+** メモ
+*** 1回目
+授業で習ったtempを用いて考える、簡単に入れ替えることができた
+
+*** 2回目
+- tmp=a; 代入のために用意したtempにaを代入
+- a=b;　　aにbを代入
+- b=c;　　bにcを代入
+- c=tmp;　cにtempを代入
+
+* 2_5 分度器
+** 課題
+度数法の２つの角度a,b(0<=a,b<360)の和(a+b)と差(a-b)の値を、それぞれ0以上360未満で求めよ。(つまり、例えば360なら0、-1なら359にせよ。)
+
+** メモ
+度数法の２つの角度a,b(0<=a,b<360)の和(a+b)と差(a-b)の値を、それぞれ0以上360未満で求めよ。(つまり、例えば360なら0、-1なら359にせよ。)(2_5)
+二つの角度a,b（0<=a,b<360)の和と差の値を0～360未満で求める
+
+*** 1回目
+和と差がそれぞれ0より上の数であればそれぞれを360で割った数を表示
+負の値となるときどのように表示するか。
+和と差が負の値を取るとき360にそれぞれを360で割った数を足して表示
+
+*** 2回目-
+int sum=a+b;　sumにはaとbの和
+int dif=a-b;　difにはaとbの差
+	
+	
+sum=(sum%360+360)%360;　sumを360で割った余りに360を足しそれを360で割った余りをsumに代入
+dif=(dif%360+360)%360;　difも同様
+
+こうすることによって構文をスッキリさせることができ、無駄な計算を省ける
+二回目で気付くことができた
+
+#+begin_src c -n
+#include<stdio.h>
+
+int main(void)
+{
+	int a=10;
+	int b=-15;
+	int sum=a+b;
+	int dif=a-b;
+	
+	
+	sum=(sum%360+360)%360;
+	dif=(dif%360+360)%360;
+	
+	printf("sum=%d dif=%d\n",sum,dif);
+	
+	return 0;
+}⏎      
+#+end_src

@@ -1,0 +1,17 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: Multiple Rakefiles
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+# +OPTIONS:   H:4 toc:t num:2
+#+OPTIONS:   toc:nil
+#+TAG: hoge, hoge2
+#+TWITTER: off
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* 沢山のRakefileを管理
+- [[https://ruby.github.io/rake/doc/rakefile_rdoc.html]]
+- [[https://subscription.packtpub.com/book/business-and-other/9781783280773/1/ch01lvl1sec14/the-structure-of-a-rake-project][The structure of a Rake project on <Packt>]]
+- [[https://subscription.packtpub.com/book/business-and-other/9781783280773/1/ch01lvl1sec11/using-global-rakefiles-to-run-tasks-anywhere][Rake Task Management essentials]]
+
