@@ -1,0 +1,22 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: title
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+# +OPTIONS:   H:4 toc:t num:2
+#+OPTIONS:   toc:nil
+#+TAG: hoge, hoge2
+#+TWITTER: off
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* memo for sources and target dir
+| [[file:./images/HyperCard_24f-10.jpg]]
+
+* Discuss sources
+| [[file:./images/HyperCard_24f-1.jpg]] | [[file:./images/HyperCard_24f-2.jpg]] | [[file:./images/HyperCard_24f-3.jpg]]
+| [[file:./images/HyperCard_24f-4.jpg]] | [[file:./images/HyperCard_24f-5.jpg]] | [[file:./images/HyperCard_24f-6.jpg]]
+| [[file:./images/HyperCard_24f-7.jpg]] | [[file:./images/HyperCard_24f-8.jpg]] | [[file:./images/HyperCard_24f-9.jpg]]
+
+
+
