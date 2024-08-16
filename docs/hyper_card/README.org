@@ -10,6 +10,19 @@
 #+TWITTER: off
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
+* Schizophrenia vs Paranoia
+#+begin_export html
+<a href="./schizophrenia_vs_paranoia/TetsugakuRenshu20_296.html"
+  class="example">
+  <img src="./images/HyperCard_24f-12.jpg"
+  width=500
+  alt=finite_temp
+  >
+</a>
+#+end_export
+
+* multiple Rakefile
+[[file:./multiple_rake.org]]
 * memo for sources and target dir
 | [[file:./images/HyperCard_24f-10.jpg]]
 
