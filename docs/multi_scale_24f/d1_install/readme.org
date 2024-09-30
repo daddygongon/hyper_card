@@ -1,0 +1,20 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: d1 <2024-09-25 Wed> introduction
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+# +OPTIONS:   H:4 toc:t num:2
+#+OPTIONS:   toc:nil
+#+TAG: hoge, hoge2
+#+TWITTER: off
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* zoom
+- [[https://kwansei-gakuin.zoom.us/j/82203994456?pwd=VUE1UjNCRXg1Y09XbjVPN1Vtb2hpdz09][link]]
+- [[https://kwanseio365-my.sharepoint.com/:f:/g/personal/cru32369_nuc_kwansei_ac_jp/EmwOLFDmVtBFqhMPXIPlLOMBWVDS94suCrRjuP08RidxrQ?e=KRtwTw][動画置き場]]
+* 板書
+| [[file:./images/HyperCard_24f_27.jpg]]
+| [[file:./images/HyperCard_24f-28.jpg]]
+| [[file:./images/HyperCard_24f-29.jpg]]
+

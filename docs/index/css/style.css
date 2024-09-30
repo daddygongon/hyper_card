@@ -1,0 +1,97 @@
+
+/* スタイル */
+body {
+    font-family: Arial, sans-serif; /* フォントの設定 */ /* CSS 設計完全ガイド p166 */
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000000;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #333333;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* タイトル */
+.title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* 目次 */
+#table-of-contents {
+    position: fixed; /* 目次を固定配置 */
+    top: 1rem; 
+    left: 1rem; 
+    width: 200px; 
+    padding: 1rem; /* 内側に空白 */
+    background-color: #dddddd;
+    border: 1px solid #000000; /* 枠線の追加*/ /* CSS 設計完全ガイド p100 */
+    
+}
+
+#content {
+    margin-left: 240px; /* 目次の幅分だけコンテンツの左側に余白を追加 */
+    padding: 1rem;
+}
+
+#table-of-contents ul {
+    list-style-type: none; /* リストの点や数字を非表示にする */
+    padding: 0;
+}
+
+
+#table-of-contents ul li {
+    margin-bottom: 0.5rem;
+}
+
+#table-of-contents ul li a {
+    color: #007acc;
+    text-decoration: none; /* リンクの下線を消す */
+}
+
+    /* image */
+.grid {
+    display: grid;
+    gap: 3rem 2rem;
+    grid-template-columns: repeat(3, 1fr); /* MANA CSS p261 */
+}
+.grid-table {
+    width: 100%;
+    margin-bottom: .5rem;
+    text-align: center; /* 説明文を中央揃え */ /* MANA CSS p194 */ 
+}
+
+.grid-table td {
+    font-size: 1rem;
+    padding: .5rem;
+    background-color: #dddddd;
+    border: 1px solid #000000;
+}   
+.item img {
+    width: 100%;
+    margin-bottom: .5rem;
+}
+.item p {
+    font-size: 1rem;
+}

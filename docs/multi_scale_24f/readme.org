@@ -1,0 +1,14 @@
+#+OPTIONS: ^:{}
+#+STARTUP: indent nolineimages overview num
+#+TITLE: Multi Scale 24f
+#+AUTHOR: Shigeto R. Nishitani
+#+EMAIL:     (concat "shigeto_nishitani@mac.com")
+#+LANGUAGE:  jp
+#+OPTIONS:   H:4 toc:t num:2
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* d1(<2024-09-25 Wed>)_introduction
+- [[file:./d1_install/images/HyperCard_24f_27.jpg]]
+- [[file:./d1_install/images/HyperCard_24f-28.jpg]]
+- [[file:./d1_install/images/HyperCard_24f-29.jpg]]
+
